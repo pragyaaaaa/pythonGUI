@@ -3,10 +3,10 @@ from tkinter.ttk import Style
 from tkinter import ttk  # Normal Tkinter.* widgets are not themed!
 from ttkthemes import ThemedTk
 
-root = ThemedTk(theme="yaru")
+root = ThemedTk(theme="breeze")
 s = Style()
 root.title("Old Plain Calculator")
-input_field = Entry(root, width=40, borderwidth=7)
+input_field = Entry(root, width=40, borderwidth=2, bg='#daecff')
 input_field.grid(row=0, column=0, columnspan=3)
 
 
